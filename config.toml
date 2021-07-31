@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "IITH Library"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact Us"
+    url = "/contact/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "opac"
+    name = "OPAC"
+    url = "http://192.168.126.11/"
+    weight = 30
+
+    [[menu.article]]
+      	identifier = "arkitektur"
+      	name = "Arkitektur"
+      	url = "//arkitektur.regionhalland.se"
+      	weight = -110
+
+	[[menu.article]]
+		identifier = "stil"
+      	name = "Stilguide"
+      	url = "/stilguide"
+      	weight = -100
